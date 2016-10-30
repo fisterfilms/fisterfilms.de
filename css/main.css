@@ -1,1 +1,85 @@
 
+html {
+    font-family:  'Open Sans', 'Work Sans','Lato', 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+}
+
+
+header, article, footer{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.video-placeholder {
+    background: #b9bcb9;
+    width: 100%;
+}
+
+header {
+  margin-top: 2.5em;
+  font-size: 1em;
+}
+
+@media (max-width: 1400px) {
+    header {
+        font-size: .7em
+    }
+
+    header, article, footer {
+        max-width: 800px;
+    }
+}
+
+
+
+.page-title h1 {
+  font-family: Bentham, "Alegreya SC";
+  font-weight: 100;
+  font-size: 5.5em;
+  color: #A8AECF;
+  margin-right: .32em;
+  letter-spacing: -.001em;
+  margin-left: -.05em;
+}
+
+.page-title p {
+  font-weight: 300;
+  font-size: 2em;
+  color: #6C6C6C;
+  white-space: nowrap;
+
+}
+
+.page-title > * {
+  display: inline;
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+  margin: 2em 0 1em 0;
+  font-size: 1.3em;
+}
+header ul li {
+  display: inline;
+  margin-right: .5em;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #6c6c6c;
+}
+
+li.active a {
+    font-weight: bold;
+}
+
+article h1 {
+  font-weight: 200;
+  font-size: 3em;
+}
+
+article {
+font-size: 18px;
+line-height: 1.8;
+}
