@@ -2,7 +2,7 @@
 layout: post
 title: My First Post
 subtitle: sooooo exiteeeed!
-date: {}
+date: 2016-08-30T21:12:27.000Z
 author: Lasse
 published: true
 ---
