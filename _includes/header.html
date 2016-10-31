@@ -6,9 +6,11 @@
   </div>
 
   <ul class="main-menu">
-    <li><a href="{{ site.baseurl }}/">Home</a></li>
-    <li class="active"><a href="{{ site.baseurl }}/projekte">Projekte</a></li>
-    <li><a href="{{ site.baseurl }}/vita">Vita</a></li>
-    <li><a href="{{ site.baseurl }}/kontakt">Kontakt</a></li>
+    {% for item in site.data.navigation %}
+      <li {% if {{page.active}} == {{item.active}} %}class="active"{% endif %}>
+        <a href="{{ site.baseurl }}{{ item.url }}" >{{ item.name }}</a>
+      </li>
+    {% endfor %}
   </ul>
+
 </header><!-- header close -->

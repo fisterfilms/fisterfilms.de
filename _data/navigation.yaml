@@ -1,0 +1,12 @@
+- name: Home
+  url: /
+  active: home
+- name: Projekte
+  url: /projekte
+  active: projekte
+- name: Vita
+  url: /vita
+  active: vita
+- name: Kontakt
+  url: /kontakt
+  active: kontakt
