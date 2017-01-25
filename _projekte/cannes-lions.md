@@ -22,7 +22,7 @@ credits:
     - [Bildgestaltung, Alexander Griesser]
     - [Montage, Moritz Henne]
     - [Filmmusik, Tobias Burkardt]
-    - [Sprecher, Stefanie Mau]
+    - [Sprecherin, Stefanie Mau]
     - [Produktion, Filmakademie Baden-Württemberg GmbH]
 filminfo:
     - TV-Reportage
