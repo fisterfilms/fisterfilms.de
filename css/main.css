@@ -111,6 +111,12 @@ footer{
   margin-top: -1.5em;
 }
 
+footer a {
+    /*On the homepage, the slider is above the footer link otherwise */
+    position: relative;
+    z-index: 1;
+}
+
 @media (max-width: 1400px) {
     header {
         font-size: .7em
