@@ -28,7 +28,7 @@ credits:
     - [Kamera, "Steffan Sick, Steffen Bohnert, u.a."]
     - [Motion Design, Pauline Branke]
     - [Schnitt, Christoph Hensen]
-    - [Ton, Ana Monte, Marcus Vetter, u.a.]
+    - [Ton, "Ana Monte, Marcus Vetter, u.a."]
     - [Filmmusik, Andreas Pfeiffer]
     - [Sprecher, "Paulina Weiner, Karl Heinz Herber"]
     - [Mischung, Laura Schnaufer]
