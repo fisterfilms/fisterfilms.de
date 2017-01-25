@@ -1,0 +1,12 @@
+{% if include.data %}
+
+<h2>{{include.title}}</h2>
+
+<!-- projekt_data_box -->
+<table class="projekt_data_box__table">
+{% for item in include.data %}
+<tr><th>{{item[0]}}</th><td>{{item[1]}}</td></tr>
+{% endfor %}
+</table>
+<!-- END projekt_data_box -->
+{% endif %}

@@ -1,4 +1,6 @@
 <!-- footer Start -->
 <footer>
-  <a href="{{ site.baseurl }}/impressum">Impressum</a>
+  {% if page.show_impressum_link  %}
+  <a href="{{ site.baseurl }}/kontakt">Impressum</a>
+  {% endif %}
 </footer>

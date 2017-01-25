@@ -4,9 +4,9 @@
 - name: Projekte
   url: /projekte
   active: projekte
-- name: Vita
-  url: /vita
-  active: vita
+- name: Über
+  url: /about
+  active: about
 - name: Kontakt
   url: /kontakt
   active: kontakt

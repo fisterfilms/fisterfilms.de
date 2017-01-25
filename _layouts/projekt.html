@@ -1,0 +1,29 @@
+---
+layout: page
+---
+
+{% include photoswipe-markup.html %}
+
+<div class="projekt_header">
+<h1>{{ page.title }}{%if page.subtitle %} – <br />{{page.subtitle}}{% endif %}</h1>
+{% if page.filminfo %}
+    <small>{{ page.filminfo | join: '&nbsp;| '}}</small>
+{% endif %}
+</div>
+
+<div class="project_column project_column-left">
+    {% include projekt_images.html %}
+</div><!--
+
+--><div class="project_column project_column-right">
+    <div class="projekt__post">
+
+    {{ content }}
+    {% if page.use_instead_of_the_word_credits %}
+        {%assign credits = page.use_instead_of_the_word_credits %}
+    {% else %}
+        {%assign credits = "Credits"%}
+    {% endif%}
+    {%include projekt_data_box.html data=page.credits title=credits%}
+    </div>
+</div>

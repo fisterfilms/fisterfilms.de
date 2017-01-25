@@ -1,7 +1,9 @@
 
 html {
-    font-family:  'Open Sans', 'Work Sans','Lato', 'Source Sans Pro', sans-serif;
+    font-family:  'Open Sans', sans-serif;
     font-size: 15px;
+    color: #6c6c6c;
+    overflow-y: scroll;
 }
 
 
@@ -10,9 +12,71 @@ header, article, footer{
   margin: 0 auto;
 }
 
-.video-placeholder {
-    background: #b9bcb9;
+.projekte_carousel{
     width: 100%;
+}
+
+address {
+  font-style: normal;
+  font-weight: 300;
+}
+
+article strong{
+  font-weight: 400;
+}
+
+.slick-prev,
+.slick-next {
+    z-index: 1;
+    opacity: 0;
+    -webkit-transition: opacity 200ms ease-out;
+    -moz-transition: opacity 200ms ease-out;
+    -o-transition: opacity 200ms ease-out;
+    transition: opacity 200ms ease-out;
+}
+
+.slick-prev {
+  left: .5rem;
+}
+.slick-next {
+  right: .5rem;
+}
+
+.projekte_carousel:hover .slick-prev,
+.projekte_carousel:hover .slick-next {
+    opacity: 1;
+}
+
+.projekte_carousel .slick-dots li button::before,
+.projekte_carousel .slick-dots li button,
+.projekte_carousel .slick-dots li {
+    width: 10px;
+    margin: 0 5px;
+}
+
+.projekte_carousel > .slide{
+  display: block;
+}
+
+.projekte_carousel figure{
+    margin: 0;
+    position: relative;
+}
+.projekte_carousel figure img{
+    width: 100%;
+}
+
+.projekte_carousel figcaption {
+    position: absolute;
+    bottom: 0;
+    right: 2.5rem;
+    padding: .5em;
+    max-width: calc(100% - 3.5rem);
+    background: rgba(0,0,0,.5);
+    text-decoration: none;
+    color: #DDD;
+    font-size: 1em;
+    font-weight: 400;
 }
 
 header {
@@ -20,20 +84,55 @@ header {
   font-size: 1em;
 }
 
+
+article h1 {
+  font-size: 1.6em;
+  line-height: 1.2;
+  font-weight: 300;
+}
+article h2 {
+  font-size: 1.1em;
+  line-height: 1.1;
+  font-weight: 600;
+  margin-top: 1.5em;
+}
+article h3 {
+  font-size: .9em;
+  font-weight: 600;
+}
+
+article {
+  font-size: 1.1em;
+}
+
+footer{
+  text-align: right;
+  font-size: .9em;
+  margin-top: -1.5em;
+}
+
 @media (max-width: 1400px) {
     header {
         font-size: .7em
     }
 
+    article {
+      font-size: .9em;
+    }
+
+    footer{
+      font-size: .7em;
+    }
+
     header, article, footer {
         max-width: 800px;
     }
+
 }
 
 
-
 .page-title h1 {
-  font-family: Bentham, "Alegreya SC";
+  font-family: Bentham, serif;
   font-weight: 100;
   font-size: 5.5em;
   color: #A8AECF;
@@ -43,7 +142,7 @@ header {
 }
 
 .page-title p {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 2em;
   color: #6C6C6C;
   white-space: nowrap;
@@ -74,12 +173,187 @@ li.active a {
     font-weight: bold;
 }
 
-article h1 {
-  font-weight: 200;
-  font-size: 3em;
+article {
+  font-weight: 300;
+  line-height: 1.3;
 }
 
-article {
-font-size: 18px;
-line-height: 1.8;
+ul.projekte {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.projekte li{
+  margin-bottom: 1.5em;
+}
+
+ul.projekte a {
+  display: inline-block;
+  width: 100%;
+}
+
+ul.projekte a:hover {
+  background: #eee;
+}
+
+ul.projekte a .title {
+    color: #6c6c6c;
+    width: calc(100% - 40%);
+    padding-left: .7em;
+    display: inline-block;
+    font-size: 1.4em;
+    line-height: 1.1;
+    font-weight: 300;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-top: .5em;
+}
+
+ul.projekte a .title small{
+  max-width: 30em;
+  display: inline-block;
+  font-weight: 300;
+  font-size: .6em;
+  margin-top: .5em;
+  line-height: 1.4;
+}
+
+ul.projekte img{
+    width: 40%;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+@media (max-width: 640px) {
+    ul.projekte img,
+    ul.projekte a .title {
+        width: 100%;
+        padding-left: 0em;
+    }
+
+    ul.projekte a .title {
+        font-size: 1.2em;
+    }
+}
+
+article.projekt {
+    position: relative;
+}
+
+.project_column {
+    vertical-align: top;
+}
+
+.vita_image {
+  width: 40%;
+}
+
+.vita_filmografie,
+.vita_table {
+  max-width: 50em;
+}
+
+.vita_table th,
+.projekt_data_box__table th {
+    text-align: left;
+    font-weight: 400;
+}
+
+.vita_table th{
+  white-space: nowrap;
+}
+.projekt_data_box__table th,
+.vita_table th {
+    padding-right: .7em;
+}
+
+.vita_table tr > * ,
+.projekt_data_box__table > *{
+    vertical-align: top;
+}
+
+@media (max-width: 640px) {
+  .vita_image {
+    width: 80%;
+  }
+  .vita_table tr > * ,
+  .projekt_data_box__table tr > *{
+      display: block;
+  }
+}
+@media (max-width: 480px) {
+  .vita_image {
+    width: 100%;
+  }
+}
+
+.project_column-left {
+  width: 40%;
+  position: absolute;
+  top: 0;
+}
+
+.projekt_header h1 {
+  margin-top: 0;
+  margin-bottom: .2em;
+}
+
+.projekt_header {
+  margin-bottom: 1.2em;
+}
+
+.project_column-right,
+.projekt_header {
+    margin-left: 40%;
+    width: 60%;
+    box-sizing: border-box;
+    padding-left: 1.05rem;
+}
+
+@media (max-width: 540px) {
+    .project_column-left{
+        position: static;
+    }
+
+    .project_column-left,
+    .project_column-right,
+    .projekt_header {
+        width: auto;
+    }
+
+    .project_column-right,
+    .projekt_header {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+}
+
+.projekt_images {
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+.projekt_images figure {
+  display: inline-block;
+  width: calc(33.3333% - .333em);
+  padding: 0 0.5em 0.5em 0;
+  margin: 0;
+  vertical-align: top
+}
+
+.projekt_images figure:nth-child(3n+1) {
+    padding-right: 0em;
+}
+
+.projekt_images figure:first-child {
+  width: 100%;
+  padding-right: 0;
+}
+
+.projekt_images img {
+  width: 100%;
+  display: block;
 }

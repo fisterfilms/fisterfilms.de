@@ -1,0 +1,22 @@
+---
+layout: page
+title: Projekte
+permalink: /projekte
+active: projekte
+---
+
+<ul class="projekte">
+{% assign projekte = site.projekte | sort: 'order' | reverse %}
+{% for post in projekte %}
+    <li><a href="{{ post.url }}"><!--
+        -->{% if post.images %}<img alt="" src="{{ site.baseurl }}/images/{{post.images[0]}}"
+        />{% endif %}<!--
+        --><span class="title">{{ post.title }}{%if post.subtitle %} – <br />{{post.subtitle}}{% endif %}
+            {% if post.filminfo %}
+                <br /><small>{{ post.filminfo | join: '&nbsp;| '}}</small>
+            {% endif %}
+        </span>
+    </a>
+    </li>
+{% endfor %}
+</ul>

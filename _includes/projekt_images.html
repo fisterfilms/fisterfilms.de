@@ -1,0 +1,37 @@
+{% if page.images %}
+<!-- projekt_images -->
+<div class="gallery projekt_images" itemscope itemtype="http://schema.org/ImageGallery">
+{% for src in page.images %}<!--
+    --><figure itemprop="associatedMedia"
+             itemscope
+             itemtype="http://schema.org/ImageObject"><!--
+        --><a href="{{ site.baseurl }}/images/{{src}}"
+             itemprop="contentUrl"
+             data-size="1200x675">
+            {% if forloop.first == true %}
+                <img src="{{ site.baseurl }}/images/{{src}}"
+                  itemprop="thumbnail"
+                  alt="" />
+            {% else %}
+                {% assign pathparts = src | split: "/" %}
+                {% assign filename = filenames | last %}
+                {% assign thumbnail = "" %}
+                {% for part in pathparts %}
+                  {% if forloop.first != true %}
+                    {% assign thumbnail = thumbnail | append: "/" %}
+                  {% endif %}
+                  {% if forloop.last == true %}
+                    {% assign thumbnail = thumbnail | append: "thumbnails/" %}
+                  {% endif %}
+                  {% assign thumbnail = thumbnail | append: part %}
+                {% endfor %}
+                <img src="{{ site.baseurl }}/images/{{ thumbnail }}"
+                  itemprop="thumbnail"
+                  alt="" />
+            {% endif %}
+        </a><!--
+    --></figure><!--
+-->{% endfor %}
+</div>
+<!-- END projekt_images -->
+{% endif %}

@@ -1,9 +1,21 @@
 ---
 layout: page
-title: Ina Fister – Regie und Producing
 permalink: /
 active: home
+js_include_slick_carousel: true
+show_impressum_link: true
 ---
 
-<svg class="video-placeholder" viewBox="0 0 16 9"></svg>
-<h1>Under Construction</h1>
+
+<div class="projekte_carousel">
+{% assign projekte = site.projekte | sort: 'order' | reverse %}
+{% for post in projekte limit:5 %}
+    <a class="slide"
+       title="{{ post.title }}{%if post.subtitle %} – {{post.subtitle}}{% endif %}"
+       href="{{ post.url }}"><figure>
+        {% if post.images %}
+            <img alt="" src="{{ site.baseurl }}/images/{{post.images[0]}}"/>
+        {% endif %}
+    </figure></a>
+{% endfor %}
+</div>

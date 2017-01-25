@@ -1,14 +1,14 @@
 <!-- Header Start -->
 <header>
   <div class="page-title">
-    <h1>Ina Fister</h1>
-    <p>Regie und Producing</p>
+    <h1>{{ site.title }}</h1>
+    <p>{{site.subtitle}}</p>
   </div>
 
   <ul class="main-menu">
     {% for item in site.data.navigation %}
       <li {% if {{page.active}} == {{item.active}} %}class="active"{% endif %}>
-        <a href="{{ site.baseurl }}{{ item.url }}" >{{ item.name }}</a>
+          <a href="{{ site.baseurl }}{{ item.url }}" >{{ item.name }}</a>
       </li>
     {% endfor %}
   </ul>
