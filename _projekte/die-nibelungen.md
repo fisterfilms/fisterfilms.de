@@ -26,7 +26,7 @@ images:
 credits:
     - [Regie, "Ina Fister, Rebecca Barthel"]
     - [Bildgestaltung, "Steffan Sick, Steffen Bohnert, u.a."]
-    - [Motion Design, Pauline Branke]
+    - [Motion&nbsp;Design, Pauline Branke]
     - [Montage, Christoph Hensen]
     - [Ton, "Ana Monte, Marcus Vetter, u.a."]
     - [Filmmusik, Andreas Pfeiffer]
