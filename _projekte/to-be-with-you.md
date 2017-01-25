@@ -14,10 +14,10 @@ images:
     - ToBeWithYou/Seng Mai bei der U Bein Bridge in Mandalay.jpg
 credits:
     - [Regie, Seng-Mai Kinraw]
-    - [Kamera, Tilman Holzhauer]
+    - [Co-Regie und Montage, Dennis Lutz]
+    - [Bildgestaltung, Tilman Holzhauer]
     - [Filmmusik, Denise Barth]
     - [Ton, Sai Kong Kham]
-    - [Schnitt, Dennis Lutz]
     - [Motion Design, Pauline Branke]
     - [Mischung, Marc Eyrich]
     - [Producer, "Ina Fister"]
