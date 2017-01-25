@@ -22,12 +22,12 @@ filminfo:
     - Filmakademie Baden-Württemberg
     - 2015
 credits:
-    - [Regie, "Ina Fister"]
-    - [Kamera, "Alexander Griesser, Robin Weiland, Stefan Sick"]
+    - [Regie und Producing, "Ina Fister"]
+    - [Bildgestaltung, "Alexander Griesser, Robin Weiland, Stefan Sick"]
+    - [Montage, "Sabrina Winter"]
+    - [Ton, "Adriana Espinal Ortiz, Frank Schubert"]
     - [Filmmusik, Tobias Burkardt]
-    - [Sounddesign, Frank Schubert]
-    - [Ton, Adriana Espinal Ortiz]
-    - [Schnitt, "Sabrina Winter"]
+    - [Mischung, Frank Schubert]
     - [Sprecher, Stefanie Mau]
     - [Produktion, Filmakademie Baden-Württemberg GmbH]
 ---
