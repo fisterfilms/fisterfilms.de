@@ -1,7 +1,7 @@
 <!-- Header Start -->
 <header>
   <div class="page-title">
-    <h1>{{ site.title }}</h1>
+    <h1><span>{{ site.title | split: "" | join: '</span><span>'}}</span></h1>
     <p>{{site.subtitle}}</p>
   </div>
 

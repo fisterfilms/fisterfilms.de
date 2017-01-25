@@ -140,6 +140,14 @@ footer{
   letter-spacing: -.001em;
   margin-left: -.05em;
 }
+/* Kerning fix for "In" */
+.page-title h1 span:nth-child(1){
+    margin-right: -.02em
+}
+/* Kerning fix for "Fi" */
+.page-title h1 span:nth-child(5){
+    margin-right: -.05em
+}
 
 .page-title p {
   font-weight: 400;
