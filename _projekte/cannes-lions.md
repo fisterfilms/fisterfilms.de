@@ -18,11 +18,11 @@ images:
     - CannesLions/Reinigungskraft auf dem Boulevard de la Croisette um 8 Uhr morgens.jpg
 
 credits:
-    - [Regie, Ina Fister]
-    - [Kamera, Alexander Griesser]
+    - ["Regie, Ton und Producing", Ina Fister]
+    - [Bildgestaltung, Alexander Griesser]
+    - [Montage, Moritz Henne]
     - [Filmmusik, Tobias Burkardt]
-    - [Schnitt, Moritz Henne]
-    - [Sprecher, Jürgen Brunner]
+    - [Sprecher, Stefanie Mau]
     - [Produktion, Filmakademie Baden-Württemberg GmbH]
 filminfo:
     - TV-Reportage
