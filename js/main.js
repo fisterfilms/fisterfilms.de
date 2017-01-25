@@ -259,6 +259,9 @@ if(window.$)
       window.$('.projekte_carousel').slick({
           autoplay: true
         , dots: true
+        , fade: true
+        , cssEase: 'linear'
+        , speed: 700
       });
     });
 
