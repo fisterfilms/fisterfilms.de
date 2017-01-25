@@ -272,7 +272,9 @@ article.projekt {
 .projekt_data_box__table > *{
     vertical-align: top;
 }
-
+.projekt_data_box__table td{
+    vertical-align: bottom;
+}
 @media (max-width: 640px) {
   .vita_image {
     width: 80%;
