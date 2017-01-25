@@ -19,8 +19,6 @@ images:
 credits:
     - [Regie und Ton, Ina Fister]
     - [Kamera und Schnitt, Carla Muresan]
-    - [Motion Design, Pauline Branke]
-    - [Producer, Daniela Drewke]
     - [Produktion, AMA Film im Auftrag der KulturRegion Stuttgart]
 filminfo:
     - audiovisueller Ausstellungskatalog und Imagefilm
