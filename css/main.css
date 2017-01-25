@@ -275,6 +275,9 @@ article.projekt {
 .projekt_data_box__table td{
     vertical-align: bottom;
 }
+.projekt_data_box__table tr > *{
+      display: inline-block;
+  }
 @media (max-width: 640px) {
   .vita_image {
     width: 80%;
