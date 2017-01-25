@@ -18,7 +18,7 @@ images:
     - aufstiege/Skyline Stuttgart.jpg
 credits:
     - [Regie und Ton, Ina Fister]
-    - [Kamera und Schnitt, Carla Muresan]
+    - [Bildgestaltung und Montage, Carla Muresan]
     - [Produktion, AMA Film im Auftrag der KulturRegion Stuttgart]
 filminfo:
     - audiovisueller Ausstellungskatalog und Imagefilm
