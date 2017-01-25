@@ -9,9 +9,9 @@ images:
     - NeatMentalsMadhouse/Neat Mentals Konzert im Epple Haus Tübingen.jpg
 use_instead_of_the_word_credits: Stab
 credits:
-    - [Regie, Ina Fister]
-    - [Kamera, Dominik Moos]
-    - [Schnitt, Enzo Hoch]
+    - [Regie und Producing, Ina Fister]
+    - [Bildgestaltung, Dominik Moos]
+    - [Montage, Enzo Hoch]
     - [Kostümbild, Lara-Luisa Scherpinski]
 filminfo:
     - Musikvideo
