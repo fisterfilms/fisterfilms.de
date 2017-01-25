@@ -15,7 +15,7 @@ credits:
     - [Kostümbild, Lara-Luisa Scherpinski]
 filminfo:
     - Musikvideo
-    - Regie
+    - Regie und Producing
     - Filmakademie Baden-Württemberg
     - in&nbsp;Vorbereitung
 ---
