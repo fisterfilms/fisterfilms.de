@@ -34,8 +34,8 @@ filminfo:
 
 ## Synopsis
 In To Be With You reist die Filmemacherin Seng-Mai Kinraw nach Myanmar, an die Orte ihrer Kindheit. Ihre Sehnsucht
-führt Sie zurück zu ihrer Familie und zu Freunden; in die Geborgenheit und Wärme
-lebendiger Erinnerungen; und in die eigene Zukunft, auf der Suche nach der eigenen
+führt Sie zurück zu ihrer Familie und zu Freunden – in die Geborgenheit und Wärme
+lebendiger Erinnerungen – und in die eigene Zukunft, auf der Suche nach der eigenen
 Heimat, der eigenen Identität.
 
 
