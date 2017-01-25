@@ -260,8 +260,8 @@ if(window.$)
           autoplay: true
         , dots: true
         , fade: true
-        , cssEase: 'linear'
-        , speed: 700
+        , cssEase: 'ease-out'
+        , speed: 1200
       });
     });
 
