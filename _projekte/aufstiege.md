@@ -6,9 +6,9 @@ order: 5
 author: Ina
 published: true
 images:
+    - aufstiege/Gegenrufe von Andreas Schmid.jpg
     - aufstiege/Sonnenuntergang in Schorndorf.jpg
     - aufstiege/Flughafen Filderstadt.jpg
-    - aufstiege/Gegenrufe von Andreas Schmid.jpg
     - aufstiege/Himmelsleiter von Kurt Laurenz.jpg
     - aufstiege/Hochwacht Esslingen.jpg
     - aufstiege/Lichtperformance von Joachim Fleischer.jpg
