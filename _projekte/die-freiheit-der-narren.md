@@ -7,12 +7,12 @@ author: Ina
 published: true
 images:
     - narrenfilm/Villinger_Narro.jpg
-    - narrenfilm/Protagonist_Claus_von_Wagner.jpg
+    - narrenfilm/Protagonist_Benjamin_Eisele.jpg
     - narrenfilm/Kirchzartener_Teufel.jpg
     - narrenfilm/Protagonistin_Carmen_Nagel.jpg
     - narrenfilm/Narrentaufe_von_Carmen_Nagel.jpg
     - narrenfilm/Hechinger_Schalksnarr.jpg
-    - narrenfilm/Protagonist_Benjamin_Eisele.jpg
+    - narrenfilm/Protagonist_Claus_von_Wagner.jpg
     - narrenfilm/Studiodreh_Kameramann_und_Puller.jpg
     - narrenfilm/Drehteam.jpg
 filminfo:
