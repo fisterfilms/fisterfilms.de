@@ -20,7 +20,7 @@ credits:
     - [Ton, Sai Kong Kham]
     - [Motion Design, Pauline Branke]
     - [Mischung, Marc Eyrich]
-    - [Producer, "Ina Fister"]
+    - [Producing, "Ina Fister"]
     - [Filmförderung, "Medien- und Filmgesellschaft Baden-Württemberg mbH"]
     - [Produktion, avindependents Film & TV Produktionsgesellschaft mbH]
     - [Koproduktion, "Filmakademie Baden-Württemberg GmbH , SWR"]
