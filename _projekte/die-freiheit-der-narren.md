@@ -6,9 +6,9 @@ order: 2
 author: Ina
 published: true
 images:
+    - narrenfilm/Hechinger_Schalksnarr.jpg
     - narrenfilm/Kirchzartener_Teufel.jpg
     - narrenfilm/Protagonistin_Carmen_Nagel.jpg
-    - narrenfilm/Hechinger_Schalksnarr.jpg
     - narrenfilm/Narrentaufe_von_Carmen_Nagel.jpg
     - narrenfilm/Protagonist_Benjamin_Eisele.jpg
     - narrenfilm/Protagonist_Claus_von_Wagner.jpg
