@@ -81,7 +81,7 @@ article strong{
 
 header {
   margin-top: 2.5em;
-  font-size: .5em;
+  font-size: 1em;
 }
 
 
@@ -136,6 +136,9 @@ footer a {
 
 }
 
+.page-title {
+  font-size: .7em;
+}
 
 .page-title h1 {
   font-family: Bentham, serif;
