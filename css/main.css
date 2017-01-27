@@ -117,7 +117,7 @@ footer a {
     z-index: 1;
 }
 
-@media (max-width: 1400px) or (device-aspect-ratio: 16/10)  {
+@media (max-width: 1400px), (device-aspect-ratio: 16/10)  {
     header {
         font-size: .7em
     }
