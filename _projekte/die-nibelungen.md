@@ -1,6 +1,6 @@
 ---
 layout: projekt
-title: Die Nibelunen
+title: Die Nibelungen
 subtitle: zwischen Seminarraum und großer Bühne
 date: 2017-01-24T20:20:00
 order: 4
