@@ -32,7 +32,7 @@ credits:
     - [Filmmusik, Andreas Pfeiffer]
     - [Sprecher, "Paulina Weiner, Karl Heinz Herber"]
     - [Mischung, Laura Schnaufer]
-    - [Producer, Daniela Drewke]
+    - [Producing, Daniela Drewke]
     - [Produktion, Filmakademie Baden-Württemberg GmbH]
     - [Koproduktion, "SWR, Akademie der Darstellenden Kunst Baden-Württemberg"]
 filminfo:
