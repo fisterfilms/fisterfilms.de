@@ -20,7 +20,7 @@ credits:
     - [Regie und Ton, Ina Fister]
     - [Bildgestaltung und Montage, Carla Muresan]
     - [Produktion, AMA FILM]
-    - [Producer, "Ulla Lehmann, Andrea Roggon"]
+    - [Producing, "Ulla Lehmann, Andrea Roggon"]
     - [Auftraggeber, KulturRegion Stuttgart]
 filminfo:
     - audiovisueller Ausstellungskatalog und Imagefilm
