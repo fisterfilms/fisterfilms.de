@@ -21,4 +21,9 @@ filminfo:
 ---
 
 ## Synopsis
-In Deutschland müssen jährlich etwa 200.000 Menschen gegen ihren Willen in die Psychiatrie. Wer eine Zwangseinweisung entscheidet, erklärt den Betroffenen für unmündig, die Folge ist Freiheitsentzug und ein unausweichlicher Behandlungskatalog, dem die Betroffenen ausgeliefert werden. Anstatt das System in Frage zu stellen, wird das Individuum zur Verantwortung gezogen. Wer nicht mithalten kann, wird für verrückt erklärt. Der fiktive Charakter Herr Müller wurde unfreiwillig eingewiesen weil er nach einem Zusammenbruch der kapitalistischen Ideologie der Gesellschaft nicht länger folgen will. Jetzt kämpft er in seiner Zelle darum, seinen Kopf nicht zu verlieren.
+Immer mehr Menschen in unserer Gesellschaft leiden unter Leistungsdruck,
+doch anstatt das System in Frage zu stellen, wird das Individuum zur Verantwortung
+gezogen. Wer nicht mithalten kann sucht oft die Schuld bei sich und
+läuft Gefahr, daran zu verzweifeln. Axel Müller steckt mitten im Burnout, in
+einem wahnhaften Zustand zwischen Traum und Realität beginnt er die Logik
+des kapitalistischen Systems in Frage zu stellen...
