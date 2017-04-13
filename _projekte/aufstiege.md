@@ -26,7 +26,7 @@ filminfo:
     - audiovisueller Ausstellungskatalog und Imagefilm
     - Regie
     - AMA&nbsp;Film
-    - Fertigstellung 2017
+    - 2017
 ---
 
 ## Synopsis
