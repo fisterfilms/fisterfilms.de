@@ -1,6 +1,7 @@
 ---
 layout: projekt
-title: Die Freiheit der Narren
+title: Narrenfreiheit.
+subtitle: Über das Fortleben einer mittelalterlichen Idee
 date: 2016-08-30T21:12:27.000Z
 order: 2
 author: Ina
